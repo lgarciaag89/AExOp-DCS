@@ -21,6 +21,8 @@ parallel execution
 
 -e,--endpoint <arg>   property target
 
+-d,--debug            create logs folder for save application logs
+
 -h,--help             Show this help and exit
 
 -i,--info             print project configuration
@@ -33,6 +35,11 @@ parallel execution
 ~~~
 
 ### Example
+~~~
+java -jar AExOp-DCS.jar.jar -p proj_25D_100MD.qtproj -s ace_COR3D_training.sdf -c subset.csv -e Activity -d
+~~~
 
+After start the execution, two folders will create: generated_descriptors and logs. 
 
-
+- generated_descriptors will have the list of each computed and considered MD for every family.
+- logs folder is created if -d option is set.  
