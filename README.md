@@ -1,6 +1,6 @@
 # AExOp-DCS
 
-## Algorithm to explore and Optimiza Descriptor Configuration Spaces
+## Algorithm to Explore and Optimize Descriptor Configuration Spaces
 
 ### Requirements
 
